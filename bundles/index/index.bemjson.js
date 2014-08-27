@@ -8,6 +8,9 @@
     title: 'Hello BEM!',
     content: {
         block: 'commentBox',
-        js: { url: 'comments.json' }
+        js: {
+            url: 'comments.json',
+            pollInterval: 2000
+        }
     }
 })

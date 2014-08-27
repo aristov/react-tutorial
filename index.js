@@ -1,1 +1,1 @@
-require('./bundles/bem/bem.node.js');
+require('./bundles/index/index.node.js');
