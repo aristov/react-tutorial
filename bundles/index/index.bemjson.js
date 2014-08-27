@@ -1,9 +1,9 @@
 ({
     block: 'page',
-    styles: [{ elem: 'css', url: 'bem.css' }],
+    styles: [{ elem: 'css', url: 'index.css' }],
     scripts: [
-        { elem: 'js' , url: 'bem.js' },
-        { elem: 'js' , url: 'bem.bemhtml.js' }
+        { elem: 'js' , url: 'index.js' },
+        { elem: 'js' , url: 'index.bemhtml.js' }
     ],
     title: 'Hello BEM!',
     content: {

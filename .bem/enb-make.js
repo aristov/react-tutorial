@@ -11,8 +11,7 @@ module.exports = function(config) {
             require("enb/techs/html-from-bemjson"),
             [ require("enb-diverse-js/techs/browser-js"), { target: '?.pre.js' } ],
             [ require("enb-modules/techs/prepend-modules"), { source: '?.pre.js', target: '?.js' } ],
-            [ require("enb-diverse-js/techs/node-js"), { target: '?.pre.node.js' } ],
-            [ require("enb-modules/techs/prepend-modules"), { source: '?.pre.node.js', target: '?.node.js' } ],
+            [ require("enb/techs/js"), { sourceSuffixes: ['node.js'], target: '?.node.js' } ],
             require("enb/techs/css")
         ]);
         nodeConfig.addTargets(["?.node.js", "?.html", "?.js", "?.css"]);
