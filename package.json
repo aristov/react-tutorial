@@ -10,7 +10,8 @@
     "enb-diverse-js": "~0.1.0",
     "react-tools": "~0.11.1",
     "ym": "~0.1.0",
-    "enb-modules": "~0.2.0"
+    "enb-modules": "~0.2.0",
+    "bower": "~1.3.9"
   },
   "devDependencies": {},
   "scripts": {
