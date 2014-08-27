@@ -5,7 +5,12 @@
   "main": "server.js",
   "dependencies": {
     "body-parser": "^1.4.3",
-    "express": "^4.4.5"
+    "express": "^4.4.5",
+    "enb": "~0.13.7",
+    "enb-diverse-js": "~0.1.0",
+    "react-tools": "~0.11.1",
+    "ym": "~0.1.0",
+    "enb-modules": "~0.2.0"
   },
   "devDependencies": {},
   "scripts": {

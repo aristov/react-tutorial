@@ -1,0 +1,1 @@
+require('./bundles/index/index.node.js');

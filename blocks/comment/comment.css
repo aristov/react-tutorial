@@ -1,0 +1,13 @@
+.comment__author
+{
+    font-weight: bold;
+    margin: 0 0 15px;
+    padding: 0;
+    border-bottom: 1px solid #eee;
+    font-size: 2em;
+}
+
+.comment__text p
+{
+    margin: 15px 0;
+}

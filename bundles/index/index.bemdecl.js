@@ -1,0 +1,3 @@
+exports.deps = [
+    { block: 'document' }
+]

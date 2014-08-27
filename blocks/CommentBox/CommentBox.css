@@ -1,0 +1,8 @@
+.commentBox__title
+{
+    border-bottom: 1px solid #ddd;
+    font-size: 2.5em;
+    font-weight: bold;
+    margin: 0 0 15px;
+    padding: 0;
+}
