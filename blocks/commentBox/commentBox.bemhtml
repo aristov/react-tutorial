@@ -1,0 +1,11 @@
+block('commentBox')(
+    js()(true),
+    content()(function() {
+        return [
+            { elem: 'title', content: 'Comments' },
+            { block: 'commentList' },
+            { block: 'commentForm' }
+        ];
+    }),
+    elem('title').tag('h1')
+)

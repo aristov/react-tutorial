@@ -1,0 +1,11 @@
+block('commentList')(
+    content()(function() {
+        return (this.ctx.data || []).map(function(comment) {
+            return {
+                block: 'comment',
+                author: comment.author,
+                text: comment.text
+            }
+        })
+    })
+)

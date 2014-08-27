@@ -1,0 +1,15 @@
+block('comment')(
+    content()(function() {
+        return [
+            { elem: 'author', content: this.ctx.author },
+            { elem: 'text', content: this.ctx.text }
+        ]
+    }),
+    elem('author').tag()('h2'),
+    elem('text')(
+        tag()('span'),
+        content()(function() {
+            return { tag: 'p', content: this.ctx.content };
+        })
+    )
+)

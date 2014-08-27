@@ -1,0 +1,22 @@
+block("commentForm")(
+    tag()('form'),
+    js()(true),
+    content()(function() {
+        return [
+            {
+                elem: 'author',
+                tag: 'input',
+                attrs: { placeholder: 'Your name' }
+            },
+            {
+                elem: 'text',
+                tag: 'input',
+                attrs: { placeholder: 'Say something...' }
+            },
+            {
+                tag: 'input',
+                attrs: { type: 'submit', value: 'Post' },
+            }
+        ]
+    })
+)

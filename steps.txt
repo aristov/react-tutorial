@@ -1,0 +1,12 @@
+install enb, enb-modules
+add enb-make.js
+add bundles/index
+    index.html
+    index.bemdecl.js
+add blocks level
+install bem-core
+показываем bem-core
+    loader
+    jquery
+    рассказываем про уровни переопределения
+
