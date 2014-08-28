@@ -1,6 +1,7 @@
 # React comment box example with BEM!
 
 This is the React comment box example from [the React tutorial](http://facebook.github.io/react/docs/tutorial.html).
+It's built on [BEM](http://bem.info) with React integration.
 
 ## To use
 
@@ -11,4 +12,4 @@ npm install
 node .
 ```
 
-And visit http://localhost:3000/. Try opening multiple tabs!
+And visit http://localhost:3000/.
