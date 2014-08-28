@@ -1,4 +1,4 @@
-modules.define('commentBox', ['i-bem__dom', 'jquery', 'BEMHTML'], function(provide, BEMDOM, $, BEMHTML) {
+modules.define('commentBox', ['i-bem__dom', 'jquery'], function(provide, BEMDOM, $) {
 
 provide(BEMDOM.decl(this.name, {
 
@@ -35,12 +35,7 @@ provide(BEMDOM.decl(this.name, {
     },
 
     _onSuccess: function(data) {
-        BEMDOM.replace(
-            this.findBlockInside('commentList').domElem,
-            BEMHTML.apply({
-                block: 'commentList',
-                data: data
-            }));
+        this.findBlockInside('commentList').update(data);
     },
 
     _onError: function(xhr, status, err) {

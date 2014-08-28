@@ -1,4 +1,5 @@
 block('commentList')(
+    js()(true),
     content()(function() {
         return (this.ctx.data || []).map(function(comment) {
             return {

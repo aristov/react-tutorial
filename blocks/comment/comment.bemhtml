@@ -6,10 +6,5 @@ block('comment')(
         ]
     }),
     elem('author').tag()('h2'),
-    elem('text')(
-        tag()('span'),
-        content()(function() {
-            return { tag: 'p', content: this.ctx.content };
-        })
-    )
+    elem('text').tag()('span')
 )
